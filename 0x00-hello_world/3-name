@@ -1,2 +1,2 @@
-#bin/bash
+#!/bin/bash
 gcc 3-name -0 cisfun
