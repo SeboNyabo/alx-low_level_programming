@@ -9,16 +9,16 @@
 
 int main(void)
 {
-	int n;
+        int n;
 
-	srand(time(0));
-	n = rand() - RAND_MAX / 2;
-	/* your code goes there */
-	if (n > 0)
-		printf("n is greater than zero");
-	else if (n < 0)
-		printf("n is less than 0");
-	else
-		printf("n is equal to zero");
-	return (0);
+        srand(time(0));
+        n = rand() - RAND_MAX / 2;
+        /* your code goes there */
+        if (n > 0)
+                printf("n is greater than zero");
+        else if (n < 0)
+                printf("n is less than 0");
+        else
+                printf("n is equal to zero");
+        return (0);
 }
