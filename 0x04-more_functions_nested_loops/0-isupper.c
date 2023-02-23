@@ -1,16 +1,19 @@
 #include "main.h"
 /**
- * isupper checks if a letter is uppercase
- * returns 1 for uppercase and 0for lower case
+ * main - entry point
+ * _isupper - checks if a letter is uppercase
+ * @c:input
+ *
+ * return: 1 for uppercase and 0 or lower case
  */
 int _isupper(int c)
 
 {
-	char ch;
+        char ch;
 
-	if (ch >= 65 && ch <= 90)
-			{
-			return (1);
-		}
-		return (0);
-}
+        if ((ch >= 'A') && (ch <= 'Z');)
+        {
+                return (1);
+        }
+                return (0);
+
